@@ -22,7 +22,7 @@ def output():
     
     # Calculate exchange rate
     result = float(input_cost.get()) * float(exchangeRate_In) / float(exchangeRate_Out)
-    exchangeRateNumlb["text"] = float(exchangeRate_In) / float(exchangeRate_Out)
+    exchangeRateNumlb["text"] = round(float(exchangeRate_In) / float(exchangeRate_Out), 3)
     output_cost["text"] = result
     
     # latest date
