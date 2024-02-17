@@ -3,6 +3,7 @@
 ## Description
 As I start learning Python, my first practice project involves creating a tool to effortlessly check currency exchange rates.
 Technical in project
+- GUI: Tkinter 
 - Dropdown list
 - Call API request
 - Button events
